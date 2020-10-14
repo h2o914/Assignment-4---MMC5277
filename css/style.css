@@ -1,3 +1,9 @@
 p {
   color: blue;
-}
+  }
+
+.capital {
+  text-decoration: underline;
+  text-shadow: 2px 2px 8px #FF0000;
+  text-transform: capitalize;
+  }
