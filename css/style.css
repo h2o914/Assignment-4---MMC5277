@@ -1,5 +1,39 @@
+@font-face {
+    font-family: 'Simplicity';
+    src: url('../fonts/Simplicity.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Unique';
+    src: url('../fonts/Unique.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'wind';
+    src: url('../fonts/wind.ttf') format('truetype');
+}
+h1 {
+  font-family: 'Simplicity', cursive;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Unique', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'wind', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 p {
   color: blue;
+  font-family: 'Noto Sans', sans-serif;
   }
 
 .capital {
