@@ -12,6 +12,11 @@
     font-family: 'wind';
     src: url('../fonts/wind.ttf') format('truetype');
 }
+
+body {
+  background-image: url(../image/lightbluesky.jpg);
+}
+
 h1 {
   font-family: 'Simplicity', cursive;
   font-size: 75px;
