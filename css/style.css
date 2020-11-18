@@ -13,6 +13,16 @@
     src: url('../fonts/wind.ttf') format('truetype');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*====================
+
+  Universal styling
+
+======================*/
 body {
   background-image: url(../image/lightbluesky.jpg);
 }
@@ -37,6 +47,33 @@ h3 {
   font-size: 30px;
 }
 
+header {
+  background: grey;
+  padding: 30px;
+}
+
+nav {
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 p {
   text-align: center;
   border: 2px solid blue;
@@ -48,6 +85,7 @@ p {
   }
 
 .capital {
+  margin: 30px;
   text-decoration: underline;
   text-shadow: 2px 2px 8px #FF0000;
   text-transform: capitalize;
